@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    text-align: center;
+    
+}
+.header img {
+    width: 100%;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    text-align: center;
+}
+input[type=textarea] {
+height: 50px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="pagina_principal.html">Página Principal</a></li>
+                <li><a href="sobre_nos.html">Sobre nós</a></li>
+                <li><a href="horario_atendimento.html">Horários de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h2>Clínica do Olho, construindo um futuro visionário para você</h2>
+                <img src="https://www.medplus.com.br/wp-content/uploads/2020/06/Teleconsulta-em-oftalmologia-por-que-ter-essa-ferramenta-MedPlus-1-1024x512.jpg"
+
+                >
+
+            </div>
+    
+            <div class="content">
+                <h3>Localização da Clínica</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.3040485827114!2d-49.27524678533413!3d-25.461520940373063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce490151f1533%3A0x431324b8c902bb62!2sR.%20Piau%C3%AD%2C%201558%20-%20Parolin%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1sen!2sbr!4v1675913172293!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>R. Piauí, 1558 - Parolin, Curitiba - PR, 82590-300</p>
+                <h4>Telefone para contato e WhatsApp: (41) 9 4002-8922 </h4>
+                <h4>Entre em contato conosco:</h4>
+                <form>
+                    Nome: <input type="text" name="name"/><br>
+                    <br>
+                    <label>E-Mail: </label><input type="email" /><br>
+                    <br>
+                    Assunto: <input type="text"/><br>
+                    <br>
+                    Mensagem: <input type="textarea"/><br>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+
+            </div>
+    
+            <div class="footer">
+                <h2>Contato</h2>
+                <h3>Telefone: (41) 94002-8922
+                    <br>
+                    e-Mail: clinica.olho@dio.com.br
+                </h3>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
